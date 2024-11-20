@@ -1,0 +1,26 @@
+.header {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__navigation {
+    display: flex;
+    width: calc(var(--welcome-photo) - 10%);
+    justify-content: space-between;
+    background-color: rgb(50, 50, 50);
+    padding: 0.5% 2%;
+    border-radius: 50px;
+}
+
+.header__navigation > .header__element {
+    color: #FAF9F6;
+    font-size: 1.5vh;
+    border-radius: 30px;
+    padding: 3% 4.5%;
+    transition: .3s;
+}
+
+.header__element:hover {
+    background-color: #faf9f62c;
+}
