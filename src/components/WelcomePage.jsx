@@ -13,7 +13,7 @@ const WelcomePage = () => {
 
             <div className='welcome__title_container'>
                 <div className='welcome__title'>Учись. Применяй. Покоряй вершины.</div>
-                <div className='welcome__info'>Погружайся в мир знаний и достигай новых высот с каждым курсом</div>
+                <div className='welcome__info'>Погружайся в мир знаний и достигай<br/> новых высот с каждым курсом</div>
                 <div className='welcome__button_container'>
                     <button className='welcome__button'>
                         Присоединиться!

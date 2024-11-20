@@ -42,11 +42,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 35vh;
+    height: 30vw;
 }
 
 .welcome__title {
-    font-size: 4.5vh;
+    font-size: calc(var(--welcome-photo) / 15);
     line-height: 5.3vh;
 }
 
