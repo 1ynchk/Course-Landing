@@ -17,8 +17,6 @@ const Statistics = () => {
                         <div className="statistics__info">Трудоустройство</div>
                     </div>
                 </div>
-
-                
             </div>
         </div>
     )
